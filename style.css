@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+*{
+    margin: 0;
+    background-color: #222831;
+}
+
+.shadows-into-light-regular {
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+header{
+    background-color: #222831;
+    padding: 50px;
+}
+
+div{
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Shadows Into Light";
+    letter-spacing: 15px;
+
+    color: #EEEEEE;
+    text-shadow:
+        0 0 5px #EEEEEE,
+        0 0 10px #EEEEEE,
+        0 0 20px #EEEEEE,
+        0 0 40px #EEEEEE;
+
+    border: #EEEEEE solid 3px;
+    box-shadow:
+        0 0 5px #EEEEEE,
+        0 0 10px #EEEEEE,
+        0 0 20px #EEEEEE,
+        0 0 40px #EEEEEE,
+        inset 0 0 5px #EEEEEE;
+}
